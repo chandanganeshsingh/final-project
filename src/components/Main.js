@@ -8,21 +8,23 @@ function Main() {
   return (
     <main>
       <div className="info">
-      <div className="text">
-      <h2>Little Lemon</h2>
-      <p>Chicago</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl nec nibh blandit, non placerat nisl finibus. Nulla facilisi.</p>
-      <button>Reserve a Table</button>
-      </div>
-      <div className="image">
-      <img src={restauranfood} alt="Restaurant" width={300} height={200} />
-      </div>
+        <div className="text">
+        <h2>Little Lemon</h2>
+        <p>Chicago</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl nec nibh blandit, non placerat nisl finibus. Nulla facilisi.</p>
+          <div className="reserve-button">
+            <button>Reserve a Table</button>
+          </div>
+        </div>
+        <div className="image">
+        <img src={restauranfood} alt="Restaurant" width={375} height={325} />
+        </div>
       </div>
       <div className="highlights">
-       <div className="specials1">
-        <h2>Specials</h2>
-        <button>Online Menu</button>
-      </div>
+        <div className="specials1">
+          <h2>Specials</h2>
+          <button>Online Menu</button>
+        </div>
       <div className="specials-list">
         <div className='specials-item'>
         <div className="specials-image">
@@ -33,7 +35,7 @@ function Main() {
         <p><span color={'#F4CE14'}>$12.99</span></p>
         </aside>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl nec nibh blandit, non placerat nisl finibus. Nulla facilisi.</p>
-        <p>Order Delivery</p>
+        <p className='order-delivery'>Order Delivery</p>
         </div>
         <div className='specials-item'>
         <div className="specials-image">
@@ -44,7 +46,7 @@ function Main() {
         <p><span color='#F4CE14'>$12.99</span></p>
         </aside>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl nec nibh blandit, non placerat nisl finibus. Nulla facilisi.</p>
-        <p>Order Delivery</p>
+        <p className='order-delivery'>Order Delivery</p>
         </div>
         <div className='specials-item'>
         <div className="specials-image">
@@ -55,7 +57,7 @@ function Main() {
         <p><span color='#F4CE14'>$12.99</span></p>
         </aside>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl nec nibh blandit, non placerat nisl finibus. Nulla facilisi.</p>
-        <p>Order Delivery</p>
+        <p className='order-delivery'>Order Delivery</p>
         </div>
       </div>
       </div>

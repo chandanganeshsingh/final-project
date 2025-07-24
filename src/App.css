@@ -42,7 +42,7 @@ header a:link, header a:visited {
   color: #000000;
   border: none;
   margin: 10px;
-  font-family: roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: large;
   font-weight: strong;
   cursor: pointer;
@@ -51,13 +51,15 @@ header a:link, header a:visited {
   padding: auto;
   border-radius: 10px;
 }
+.reserve-button {
+  margin-top: 60px;
+}
 .info img {
-  max-width: 600px;
-  max-height: 400px;
-  height: auto;
   justify-content: flex-end;
   border: #000000 solid 2px;
   margin: 20px;
+  object-fit: cover;
+  object-position: center;
 }
 .text {
   justify-content: center;
@@ -70,7 +72,7 @@ header a:link, header a:visited {
 }
 .text h2 {
   margin: 10px;
-  font-size: 50px;
+  font-size: 56px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #F4CE14;
@@ -119,6 +121,15 @@ header a:link, header a:visited {
   padding: 0px;
   border-radius: 18px 18px 0 0;
 }
+.order-delivery {
+  display: inline-block;
+  color: #333333;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
 .heading{
   display: flex;
   flex-direction: row;
@@ -126,6 +137,95 @@ header a:link, header a:visited {
   justify-content: space-between;
   margin-bottom: 20px;
   padding: 10px;
+}
+.testimonials {
+  background-color: #D9D9D9;
+  padding: 40px 12.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial-items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.testimonials h2 {
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.testimonial-header {
+  display: block;
+  margin-bottom: 20px;
+}
+.testimonial-item {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+.testimonial-image {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  gap: 10px;
+}
+.testimonial-text {
+  font-weight: normal;
+  font-size: 14px;
+  color: #666666;
+}
+.story{
+  background-color: #f8f9fa;
+  padding: 5% 12.5% 5% 12.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.story-details > h2{
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.story-details > p {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+.story-image {
+  display: grid;
+  position: relative;
+  margin-left: 20px;
+}
+.story-image-item1{
+  width: 267.94px;
+  height: 336px;
+  object-fit: cover;
+  object-position: center;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 2;
+  margin-top: -40px;
+  margin-left: 60px;
+  border: #000000 solid 2px;
+}
+.story-image-item2{
+  width: 267.94px;
+  height: 336px;
+  object-fit: cover;
+  object-position: center;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+  margin-left: -30px;
+  border: #000000 solid 2px;
 }
 .footer1 {
   background-color: #D9D9D9;
@@ -138,6 +238,10 @@ header a:link, header a:visited {
 .footer1 > div {
   flex: 1;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .footer-bullet {
   list-style: none ;
@@ -150,6 +254,15 @@ header a:link, header a:visited {
 footer a:link, footer a:visited {
   text-decoration: none;
   color: #000000;
+}
+.footer-img {
+  width: 162px;
+  height: 279px;
+  overflow: hidden;
+}
+.footer-img img {
+  object-fit: cover;
+  object-position: center;
 }
 .footer-address {
   flex: 1;
