@@ -99,11 +99,11 @@ header a:link, header a:visited {
   background-color: #f8f9fa;
   line-height: 1.5;
   padding: 0 12.5% 20px 12.5%;
+  border-radius: 18px;
 }
 .specials-item{
   background-color: #ECEAEA;
   padding: 0;
-  border-radius: 18px 18px 0 0;
   text-align: flex-start;
   flex: 1;
   width: 300px;
@@ -114,12 +114,10 @@ header a:link, header a:visited {
   font-size: 16px;
 }
 .specials-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  border-radius: 18px;
   margin-bottom: 20px;
-  padding: 0px;
-  border-radius: 18px 18px 0 0;
+  border-radius: 50px;
 }
 .order-delivery {
   display: inline-block;
@@ -168,6 +166,8 @@ header a:link, header a:visited {
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 175px;
 }
 .testimonial-image {
   display: flex;
@@ -188,21 +188,28 @@ header a:link, header a:visited {
   flex-direction: row;
   align-items: flex-start;
 }
+.story-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .story-details > h2{
-  font-size: 36px;
-  color: #333333;
+  font-size: 40px;
+  color: #000000;
   margin-bottom: 20px;
 }
 .story-details > p {
   font-size: 18px;
-  color: #666666;
+  text-align: justify;
+  color: #333333;
+  justify-items: left;
   margin-bottom: 20px;
-  margin-right: 50px;
+  margin-right: 300px;
 }
 .story-image {
   display: grid;
   position: relative;
-  margin-left: 20px;
 }
 .story-image-item1{
   width: 267.94px;
@@ -212,8 +219,6 @@ header a:link, header a:visited {
   grid-row: 1;
   grid-column: 1;
   z-index: 2;
-  margin-top: -40px;
-  margin-left: 60px;
   border: #000000 solid 2px;
 }
 .story-image-item2{
@@ -224,7 +229,8 @@ header a:link, header a:visited {
   grid-row: 1;
   grid-column: 1;
   z-index: 1;
-  margin-left: -30px;
+  margin-left: -100px;
+  margin-top: 70px;
   border: #000000 solid 2px;
 }
 .footer1 {

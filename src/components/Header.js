@@ -1,5 +1,6 @@
 import React from "react";
 import logo from './Logo.png';
+import { BrowserRouter as Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -7,12 +8,12 @@ function Header() {
       <img src={logo} alt="Company Logo" />
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#Menu">Menu</a></li>
-          <li><a href="#Reservations">Reservations</a></li>
-          <li><a href="#OrderOnline">Order Online</a></li>
-          <li><a href="#Login">Login</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
+          <li><Link to="/reservations">Reservations</Link></li>
+          <li><Link to="/order-online">Order Online</Link></li>
+          <li><Link to="/login">Login</Link></li>
         </ul>
       </nav>
     </header>

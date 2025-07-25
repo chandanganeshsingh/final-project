@@ -1,17 +1,26 @@
 import './App.css';
-import Header from './components/Header';
 import Main from './components/Main';
-import Footer from './components/Footer';
-import Testimonials from './components/Testimonials';
-import Story from './components/Story';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import About from './components/About';
+import Menu from './components/Menu';
+import Reservations from './components/Reservations';
+import OrderOnline from './components/OrderOnline';
+import Login from './components/Login';
+
 function App() {
   return (
     <>
-    <Header />
-    <Main />
-    <Testimonials />
-    <Story />
-    <Footer />
+      <Router>
+
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/reservations" element={<Reservations />} />
+          <Route path="/order-online" element={<OrderOnline />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Router>
     </>
   );
 }
