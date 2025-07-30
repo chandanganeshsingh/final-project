@@ -1,8 +1,8 @@
 import React from 'react';
-import sarah from './sarah.jpg';
-import michael from './michael.jpg';
-import priya from './priya.jpg';
-import david from './david.jpg';
+import sarah from '../images/sarah.jpg';
+import michael from '../images/michael.jpg';
+import priya from '../images/priya.jpg';
+import david from '../images/david.jpg';
 function Testimonials() {
   return (
     <section className="testimonials">

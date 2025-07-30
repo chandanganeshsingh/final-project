@@ -1,7 +1,7 @@
 import React from "react";
-import greensalad from './greeksalad.jpg';
-import lemondessert from './lemondessert.jpg';
-import bruchetta from './bruchetta.jpg';
+import greensalad from '../images/greeksalad.jpg';
+import lemondessert from '../images/lemondessert.jpg';
+import bruchetta from '../images/bruchetta.jpg';
 
 function Card() {
   return (

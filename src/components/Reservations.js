@@ -1,11 +1,11 @@
 import '../App.css';
+import BookingForm from './BookingForm';
 import Footer from './Footer';
-import Header from './Header';
 
 const Reservations = () => {
   return (
     <div>
-      <Header />
+      <BookingForm />
       <Footer />
     </div>
   );

@@ -1,15 +1,13 @@
 import React from 'react';
-import Header from './Header.js'
 import Footer from './Footer.js';
 import Story from './Story.js';
 import Testimonials from './Testimonials.js';
-import restauranfood from './restauranfood.jpg';
+import restauranfood from '../images/restauranfood.jpg';
 import Card from './Card.js';
 
 function Main() {
   return (
     <main>
-      <Header />
       <div className="info">
         <div className="text">
         <h2>Little Lemon</h2>
