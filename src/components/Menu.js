@@ -1,13 +1,14 @@
 import '../App.css';
+import Header from './Header';
 import Footer from './Footer';
-import Card from './Card';
 
 const Menu = () => {
   return (
-    <div>
-      <Card />
+    <>
+      <Header />
+      <h3 style={{ textAlign: 'center', margin: '20px 0' }}>Menu</h3>
       <Footer />
-    </div>
+    </>
   );
 };
 

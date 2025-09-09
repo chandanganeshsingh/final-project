@@ -1,12 +1,13 @@
-import '../App.css';
+import React from 'react'
+import Header from './Header';
 import Footer from './Footer';
 
-const Login = () => {
+export default function Login() {
   return (
-    <div>
+    <>
+      <Header />
+      <h3 style={{ textAlign: 'center', margin: '20px 0' }}>Login</h3>
       <Footer />
-    </div>
-  );
-};
-
-export default Login;
+    </>
+  )
+}

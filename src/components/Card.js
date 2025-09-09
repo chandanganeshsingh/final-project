@@ -2,13 +2,16 @@ import React from "react";
 import greensalad from '../images/greeksalad.jpg';
 import lemondessert from '../images/lemondessert.jpg';
 import bruchetta from '../images/bruchetta.jpg';
+import { Link } from "react-router-dom";
 
 function Card() {
   return (
     <div className="highlights">
         <div className="specials1">
           <h2>Specials</h2>
-          <button>Online Menu</button>
+          <Link to="/menu">
+          <button aria-label="Online Menu">Online Menu</button>
+          </Link>
         </div>
       <div className="specials-list">
         <div className='specials-item'>
