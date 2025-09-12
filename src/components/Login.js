@@ -6,7 +6,7 @@ export default function Login() {
   return (
     <>
       <Header />
-      <h3 style={{ textAlign: 'center', margin: '20px 0' }}>Login</h3>
+      <h3 style={{ textAlign: 'center', margin: '200px 0' }}>Page Under Construction</h3>
       <Footer />
     </>
   )

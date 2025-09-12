@@ -19,8 +19,8 @@ function Card() {
         <img src={greensalad} alt="Specials" width="100%" height="200" />
         </div>
         <aside className="heading">
-        <h4>Special Dish</h4>
-        <p><span color={'#F4CE14'}>$12.99</span></p>
+        <h4>Green Salad</h4>
+        <p><span style={{ color: "#F4CE14" }}>$12.99</span></p>
         </aside>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl nec nibh blandit, non placerat nisl finibus. Nulla facilisi.</p>
         <p className='order-delivery'>Order Delivery</p>
@@ -30,8 +30,8 @@ function Card() {
         <img src={lemondessert} alt="Specials" width="100%" height="200" />
         </div>
         <aside className="heading">
-        <h4>Special Dish</h4>
-        <p><span color='#F4CE14'>$12.99</span></p>
+        <h4>Lemon Dessert</h4>
+        <p><span style={{ color: "#F4CE14" }}>$05.00</span></p>
         </aside>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl nec nibh blandit, non placerat nisl finibus. Nulla facilisi.</p>
         <p className='order-delivery'>Order Delivery</p>
@@ -41,8 +41,8 @@ function Card() {
         <img src={bruchetta} alt="Specials" width="100%" height="200" />
         </div>
         <aside className="heading">
-        <h4>Special Dish</h4>
-        <p><span color='#F4CE14'>$12.99</span></p>
+        <h4>Bruchetta</h4>
+        <p><span style={{ color: "#F4CE14" }}>$05.99</span></p>
         </aside>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl nec nibh blandit, non placerat nisl finibus. Nulla facilisi.</p>
         <p className='order-delivery'>Order Delivery</p>

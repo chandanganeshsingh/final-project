@@ -7,7 +7,7 @@ const ConfirmedBooking = () => {
   const booking = location.state?.booking;
 
   const handleClose = () => {
-    navigate("/reservations", { state: { booking } });
+    navigate("/reservations");
   };
 
   return (

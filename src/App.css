@@ -17,12 +17,15 @@ header {
   align-items: center;
   padding: 20px 12.5%;
 }
-header nav ul{
+.nav-links ul{
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   gap: 20px;
+}
+.hamburger {
+  display: none;
 }
 header a:link, header a:visited {
   text-decoration: none;
@@ -218,6 +221,7 @@ header a:link, header a:visited {
   grid-row: 1;
   grid-column: 1;
   z-index: 2;
+  margin-left: 50px;
   border: #000000 solid 2px;
 }
 .story-image-item2{
@@ -228,7 +232,7 @@ header a:link, header a:visited {
   grid-row: 1;
   grid-column: 1;
   z-index: 1;
-  margin-left: -100px;
+  margin-left: -10px;
   margin-top: 70px;
   border: #000000 solid 2px;
 }
@@ -293,11 +297,36 @@ input:focus:invalid{
   header {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+    padding: 20px;
   }
-  header nav ul {
+  .Menu-logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+  }
+  .nav-links {
+    display: none;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
+  .nav-links.open{
+    display: flex;
+  }
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
   .info {
     flex-direction: column;
     align-items: center;
@@ -347,7 +376,6 @@ input:focus:invalid{
   justify-content: flex-end;
   display: grid;
   object-position: center;
-  margin-left: 40px;
 }
   .story-image-item1{
   width: 267.94px;
@@ -357,6 +385,7 @@ input:focus:invalid{
   grid-row: 1;
   grid-column: 1;
   z-index: 2;
+  margin-left: 50px;
   border: #000000 solid 2px;
 }
 .story-image-item2{
@@ -367,7 +396,7 @@ input:focus:invalid{
   grid-row: 1;
   grid-column: 1;
   z-index: 1;
-  margin-left: -100px;
+  margin-left: -10px;
   margin-top: 70px;
   border: #000000 solid 2px;
 }

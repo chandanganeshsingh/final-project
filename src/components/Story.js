@@ -7,7 +7,8 @@ function Story() {
     <article className="story">
     <div className="story-details">
       <h2>Little Lemon</h2>
-      <p>Chicago</p>
+      <h3>Chicago</h3>
+      <hr></hr>
       <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
     </div>
     <aside className="story-image">
