@@ -337,6 +337,8 @@ input:focus:invalid{
   }
   .text {
     max-width: 100%;
+    text-align: justify;
+    padding: 10px;
   }
   .text h2 {
     font-size: 30px;
@@ -425,8 +427,11 @@ input:focus:invalid{
   button {
     width: 100%;
     max-width: 200px;
-    margin: 20px auto;
+    margin: 20px ;
   }
+  .reserve-button {
+  margin-top: 5px;
+}
   .booking-form {
     display: flex;
     flex-direction: column;
